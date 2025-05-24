@@ -1,1 +1,125 @@
 /* STYLE FOR YOUR INDEX.HTML */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #3a5a80, #5f7eab);
+    color: white;
+    padding: 15px 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .link1 {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .link2 {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+  }
+  .link3 {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+  }
+  
+  .nav-bar1 :hover {
+    text-decoration: underline;
+  }
+  
+  /* Search bar */
+  .search-bar input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+  }
+  
+  /* Hero image */
+  .hero-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 15px;
+  }
+  
+  /* Categories section */
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+  }
+  
+  .category-img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .category-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .tags {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .tags button {
+    background-color: #e0e0e0;
+    border: none;
+    margin: 6px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tags button:hover {
+    background-color: #c7d2fe;
+  }
+  
+  /* Placeholders */
+  .placeholder {
+    background-color: #ccc;
+    border-radius: 12px;
+  }
+  
+  .hero-img.placeholder {
+    height: 300px;
+  }
+  
+  .category-img.placeholder {
+    width: 220px;
+    height: 160px;
+  }
+  
+  
+  
+  

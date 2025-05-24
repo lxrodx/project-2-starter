@@ -1,1 +1,66 @@
 /* STYLE FOR YOU MAIN.HTML */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Outfit Gallery Section */
+  .outfit-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  .gallery-box {
+    width: 250px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-box:hover {
+    transform: scale(1.03);
+  }
+  
+  .gallery-box img {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+  }
+
+  .gallery-placeholder {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Captions */
+  .caption {
+    padding: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Placeholder for gallery images */
+  .placeholder {
+    background-color: #ccc;
+    border-radius: 12px;
+  }
+  
+  
+  
