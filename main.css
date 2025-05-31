@@ -1,4 +1,16 @@
 /* STYLE FOR YOU MAIN.HTML */
+@font-face {
+  font-family:'Satanez' ;
+  src: url('../SatanezDemoRegular.ttf') format('truetype');
+}
+
+.intro {
+  font-family: 'Satanez', sans-serif;
+  font-size: 36px;
+  margin-top: 20px;
+
+}
+
 .content {
     padding: 40px 20px;
     text-align: center;
@@ -31,15 +43,14 @@
   }
   
   .gallery-box:hover {
-    transform: scale(1.03);
+    transform: scale(1.09);
   }
   
   .gallery-box img {
     color: white;
-    margin: 0 10px;
+    margin: 0 0px;
     text-decoration: none;
     font-weight: bold;
-
 
   }
 
@@ -61,6 +72,56 @@
     background-color: #ccc;
     border-radius: 12px;
   }
+  /* Keyframe animations */
+@keyframes floatText {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.floating-title {
+  animation: floatText 3s ease-in-out infinite;
+}
+
+/* Glitchy hyperlink hover effect */
+.fun-link {
+  display: inline-block;
+  margin: 20px 10px;
+  color: #3a5a80;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.fun-link:hover {
+  color: #2f4a66;
+  text-shadow: 1px 1px red, -1px -1px blue;
+}
+
+/* Image filters */
+.filter-img {
+  filter: contrast(1.9) saturate(1.2);
+}
+
+
+
+/* Keyframe floating animation for visuals */
+@keyframes floatElement {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+
+}
+ .gallery-placeholder {
+  animation: floatElement 4s ease-in-out infinite;
+}
+
+
+
+
+
+
   
   
   
