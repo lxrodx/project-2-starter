@@ -1,7 +1,7 @@
 /* STYLE FOR YOU MAIN.HTML */
 @font-face {
   font-family:'Satanez' ;
-  src: url('../SatanezDemoRegular.ttf') format('truetype');
+  src: url('SatanezDemoRegular.ttf') format('truetype');
 }
 
 .intro {
