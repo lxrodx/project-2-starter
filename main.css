@@ -1,11 +1,11 @@
 /* STYLE FOR YOU MAIN.HTML */
 @font-face {
-  font-family:'Satanez' ;
-  src: url('SatanezDemoRegular.ttf') format('truetype');
+  font-family: Satanez ;
+  src: url("SatanezDemoRegular.ttf");
 }
 
 .intro {
-  font-family: 'Satanez', sans-serif;
+  font-family: Satanez, sans-serif;
   font-size: 36px;
   margin-top: 20px;
 
